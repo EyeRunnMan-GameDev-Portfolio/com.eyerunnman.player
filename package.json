@@ -1,6 +1,6 @@
 {
   "name": "com.eyerunnman.player",
-  "version": "1.5.3",
+  "version": "1.0.0",
   "displayName": "Player Package",
   "description": "A package template repo that will be used to create multiple unity package repos.",
   "unity": "2019.1",
