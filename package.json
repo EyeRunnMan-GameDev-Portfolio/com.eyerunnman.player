@@ -30,8 +30,5 @@
   "homepage": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player",
   "author": {
     "name": "eyerunnman"
-  },
-  "dependencies": {
-    "com.eyerunnman.interfaces": "1.0.1"
   }
 }
