@@ -1,7 +1,9 @@
 {
-    "name": "com.org-name.package-name.Editor",
+    "name": "com.eyerunnman.player",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:2aab019898caf494882892777ebbd4a3"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -1,13 +1,13 @@
 {
-  "name": "com.org-name.package-name",
+  "name": "com.eyerunnman.player",
   "version": "1.5.3",
-  "displayName": "Package Name",
-  "description": "This is an Template repo for Unity Packages (UPM)",
+  "displayName": "Player Package",
+  "description": "A package template repo that will be used to create multiple unity package repos.",
   "unity": "2019.1",
   "unityRelease": "6f1",
-  "documentationUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template#readme",
-  "changelogUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template/blob/main/LICENSE.md",
+  "documentationUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player#readme",
+  "changelogUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player/blob/main/LICENSE.md",
   "samples": [
     {
       "displayName": "TestSample1",
@@ -21,14 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template.git"
+    "url": "git+https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template/issues"
+    "url": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player/issues"
   },
-  "homepage": "https://github.com/EyeRunnMan-GameDev-Portfolio/unity-package-template",
+  "homepage": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player",
   "author": {
-    "name": "org-name"
+    "name": "eyerunnman"
+  },
+  "dependencies": {
+    "com.eyerunnman.interfaces": "1.0.1"
   }
 }
