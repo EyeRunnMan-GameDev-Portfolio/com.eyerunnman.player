@@ -5,8 +5,8 @@
   "description": "A package template repo that will be used to create multiple unity package repos.",
   "unity": "2019.1",
   "unityRelease": "6f1",
-  "documentationUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player#readme",
-  "changelogUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://eyerunnman-gamedev-portfolio.github.io/com.eyerunnman.player/articles/GettingStarted.html",
+  "changelogUrl": "https://eyerunnman-gamedev-portfolio.github.io/com.eyerunnman.player/CHANGELOG.html",
   "licensesUrl": "https://github.com/EyeRunnMan-GameDev-Portfolio/com.eyerunnman.player/blob/main/LICENSE.md",
   "samples": [
     {
