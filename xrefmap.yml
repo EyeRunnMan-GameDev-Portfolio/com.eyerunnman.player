@@ -1,55 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: com.eyerunnman.gridsystem
-  name: com.eyerunnman.gridsystem
-  href: api-editor/com.eyerunnman.gridsystem.html
-  commentId: N:com.eyerunnman.gridsystem
-  fullName: com.eyerunnman.gridsystem
-  nameWithType: com.eyerunnman.gridsystem
-- uid: com.eyerunnman.gridsystem.EditorGridTile
-  name: EditorGridTile
-  href: api-editor/com.eyerunnman.gridsystem.EditorGridTile.html
-  commentId: T:com.eyerunnman.gridsystem.EditorGridTile
-  fullName: com.eyerunnman.gridsystem.EditorGridTile
-  nameWithType: EditorGridTile
-- uid: com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData
-  name: UpdateDebugData()
-  href: api-editor/com.eyerunnman.gridsystem.EditorGridTile.html#com_eyerunnman_gridsystem_EditorGridTile_UpdateDebugData
-  commentId: M:com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData
-  fullName: com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData()
-  nameWithType: EditorGridTile.UpdateDebugData()
-- uid: com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData*
-  name: UpdateDebugData
-  href: api-editor/com.eyerunnman.gridsystem.EditorGridTile.html#com_eyerunnman_gridsystem_EditorGridTile_UpdateDebugData_
-  commentId: Overload:com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData
-  isSpec: "True"
-  fullName: com.eyerunnman.gridsystem.EditorGridTile.UpdateDebugData
-  nameWithType: EditorGridTile.UpdateDebugData
-- uid: com.eyerunnman.gridsystem.GridEditor
-  name: GridEditor
-  href: api-editor/com.eyerunnman.gridsystem.GridEditor.html
-  commentId: T:com.eyerunnman.gridsystem.GridEditor
-  fullName: com.eyerunnman.gridsystem.GridEditor
-  nameWithType: GridEditor
-- uid: com.eyerunnman.gridsystem.GridEditorConfigDataSO
-  name: GridEditorConfigDataSO
-  href: api-editor/com.eyerunnman.gridsystem.GridEditorConfigDataSO.html
-  commentId: T:com.eyerunnman.gridsystem.GridEditorConfigDataSO
-  fullName: com.eyerunnman.gridsystem.GridEditorConfigDataSO
-  nameWithType: GridEditorConfigDataSO
-- uid: com.eyerunnman.gridsystem.GridEditorConfigDataSO.DebugTileObject
-  name: DebugTileObject
-  href: api-editor/com.eyerunnman.gridsystem.GridEditorConfigDataSO.html#com_eyerunnman_gridsystem_GridEditorConfigDataSO_DebugTileObject
-  commentId: F:com.eyerunnman.gridsystem.GridEditorConfigDataSO.DebugTileObject
-  fullName: com.eyerunnman.gridsystem.GridEditorConfigDataSO.DebugTileObject
-  nameWithType: GridEditorConfigDataSO.DebugTileObject
-- uid: com.eyerunnman.gridsystem.GridEditorConfigDataSO.TileHeightSnap
-  name: TileHeightSnap
-  href: api-editor/com.eyerunnman.gridsystem.GridEditorConfigDataSO.html#com_eyerunnman_gridsystem_GridEditorConfigDataSO_TileHeightSnap
-  commentId: F:com.eyerunnman.gridsystem.GridEditorConfigDataSO.TileHeightSnap
-  fullName: com.eyerunnman.gridsystem.GridEditorConfigDataSO.TileHeightSnap
-  nameWithType: GridEditorConfigDataSO.TileHeightSnap
 - uid: com.eyerunnman.player
   name: com.eyerunnman.player
   href: api-runtime/com.eyerunnman.player.html
