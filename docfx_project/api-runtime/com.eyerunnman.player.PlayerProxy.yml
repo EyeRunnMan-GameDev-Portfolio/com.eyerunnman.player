@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.PlayerProxy
+  commentId: T:com.eyerunnman.player.PlayerProxy
+  id: PlayerProxy
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+  langs:
+  - csharp
+  - vb
+  name: PlayerProxy
+  nameWithType: PlayerProxy
+  fullName: com.eyerunnman.player.PlayerProxy
+  type: Class
+  source:
+    id: PlayerProxy
+    path: ''
+    startLine: 449
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class PlayerProxy : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerProxy
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+  commentId: M:com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+  id: ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+  parent: com.eyerunnman.player.PlayerProxy
+  langs:
+  - csharp
+  - vb
+  name: ExecuteCommand(ICommand<Player>)
+  nameWithType: PlayerProxy.ExecuteCommand(ICommand<Player>)
+  fullName: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand<com.eyerunnman.player.Player>)
+  type: Method
+  source:
+    id: ExecuteCommand
+    path: ''
+    startLine: 466
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public void ExecuteCommand(ICommand<Player> command)
+    parameters:
+    - id: command
+      type: ICommand{com.eyerunnman.player.Player}
+    content.vb: Public Sub ExecuteCommand(command As ICommand(Of Player))
+  overload: com.eyerunnman.player.PlayerProxy.ExecuteCommand*
+  nameWithType.vb: PlayerProxy.ExecuteCommand(ICommand(Of Player))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand(Of com.eyerunnman.player.Player))
+  name.vb: ExecuteCommand(ICommand(Of Player))
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: com.eyerunnman.player.PlayerProxy.ExecuteCommand*
+  commentId: Overload:com.eyerunnman.player.PlayerProxy.ExecuteCommand
+  name: ExecuteCommand
+  nameWithType: PlayerProxy.ExecuteCommand
+  fullName: com.eyerunnman.player.PlayerProxy.ExecuteCommand
+- uid: ICommand{com.eyerunnman.player.Player}
+  commentId: '!:ICommand{com.eyerunnman.player.Player}'
+  definition: ICommand`1
+  name: ICommand<Player>
+  nameWithType: ICommand<Player>
+  fullName: ICommand<com.eyerunnman.player.Player>
+  nameWithType.vb: ICommand(Of Player)
+  fullName.vb: ICommand(Of com.eyerunnman.player.Player)
+  name.vb: ICommand(Of Player)
+  spec.csharp:
+  - uid: ICommand`1
+    name: ICommand
+    nameWithType: ICommand
+    fullName: ICommand
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: com.eyerunnman.player.Player
+    name: Player
+    nameWithType: Player
+    fullName: com.eyerunnman.player.Player
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ICommand`1
+    name: ICommand
+    nameWithType: ICommand
+    fullName: ICommand
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: com.eyerunnman.player.Player
+    name: Player
+    nameWithType: Player
+    fullName: com.eyerunnman.player.Player
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ICommand`1
+  commentId: '!:ICommand`1'
+  isExternal: true
+  name: ICommand<>
+  nameWithType: ICommand<>
+  fullName: ICommand<>
+  nameWithType.vb: ICommand(Of )
+  fullName.vb: ICommand(Of )
+  name.vb: ICommand(Of )
+  spec.csharp:
+  - uid: ICommand`1
+    name: ICommand
+    nameWithType: ICommand
+    fullName: ICommand
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ICommand`1
+    name: ICommand
+    nameWithType: ICommand
+    fullName: ICommand
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

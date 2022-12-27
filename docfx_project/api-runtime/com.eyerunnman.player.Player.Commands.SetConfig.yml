@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.Player.Commands.SetConfig
+  commentId: T:com.eyerunnman.player.Player.Commands.SetConfig
+  id: Player.Commands.SetConfig
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)
+  - com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+  langs:
+  - csharp
+  - vb
+  name: Player.Commands.SetConfig
+  nameWithType: Player.Commands.SetConfig
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig
+  type: Class
+  source:
+    id: SetConfig
+    path: ''
+    startLine: 194
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class SetConfig : ICommand<Player>'
+    content.vb: >-
+      Public Class SetConfig
+
+          Inherits ICommand(Of Player)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)
+  commentId: M:com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)
+  id: '#ctor(com.eyerunnman.player.PlayerConfig)'
+  parent: com.eyerunnman.player.Player.Commands.SetConfig
+  langs:
+  - csharp
+  - vb
+  name: SetConfig(PlayerConfig)
+  nameWithType: Player.Commands.SetConfig.SetConfig(PlayerConfig)
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig(com.eyerunnman.player.PlayerConfig)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 197
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public SetConfig(PlayerConfig config)
+    parameters:
+    - id: config
+      type: com.eyerunnman.player.PlayerConfig
+    content.vb: Public Sub New(config As PlayerConfig)
+  overload: com.eyerunnman.player.Player.Commands.SetConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+  commentId: M:com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+  id: Execute(com.eyerunnman.player.Player)
+  parent: com.eyerunnman.player.Player.Commands.SetConfig
+  langs:
+  - csharp
+  - vb
+  name: Execute(Player)
+  nameWithType: Player.Commands.SetConfig.Execute(Player)
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 202
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public void Execute(Player player)
+    parameters:
+    - id: player
+      type: com.eyerunnman.player.Player
+    content.vb: Public Sub Execute(player As Player)
+  overload: com.eyerunnman.player.Player.Commands.SetConfig.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: com.eyerunnman.player.Player.Commands.SetConfig.#ctor*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.SetConfig.#ctor
+  name: SetConfig
+  nameWithType: Player.Commands.SetConfig.SetConfig
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig
+- uid: com.eyerunnman.player.PlayerConfig
+  commentId: T:com.eyerunnman.player.PlayerConfig
+  parent: com.eyerunnman.player
+  name: PlayerConfig
+  nameWithType: PlayerConfig
+  fullName: com.eyerunnman.player.PlayerConfig
+- uid: com.eyerunnman.player.Player.Commands.SetConfig.Execute*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.SetConfig.Execute
+  name: Execute
+  nameWithType: Player.Commands.SetConfig.Execute
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig.Execute
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  parent: com.eyerunnman.player
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player

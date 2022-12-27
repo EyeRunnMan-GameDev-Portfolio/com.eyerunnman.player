@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.Player.Commands.Move
+  commentId: T:com.eyerunnman.player.Player.Commands.Move
+  id: Player.Commands.Move
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)
+  - com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+  langs:
+  - csharp
+  - vb
+  name: Player.Commands.Move
+  nameWithType: Player.Commands.Move
+  fullName: com.eyerunnman.player.Player.Commands.Move
+  type: Class
+  source:
+    id: Move
+    path: ''
+    startLine: 138
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class Move : ICommand<Player>'
+    content.vb: >-
+      Public Class Move
+
+          Inherits ICommand(Of Player)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)
+  commentId: M:com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)
+  id: '#ctor(Vector2)'
+  parent: com.eyerunnman.player.Player.Commands.Move
+  langs:
+  - csharp
+  - vb
+  name: Move(Vector2)
+  nameWithType: Player.Commands.Move.Move(Vector2)
+  fullName: com.eyerunnman.player.Player.Commands.Move.Move(Vector2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 142
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public Move(Vector2 moveInput)
+    parameters:
+    - id: moveInput
+      type: Vector2
+    content.vb: Public Sub New(moveInput As Vector2)
+  overload: com.eyerunnman.player.Player.Commands.Move.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+  commentId: M:com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+  id: Execute(com.eyerunnman.player.Player)
+  parent: com.eyerunnman.player.Player.Commands.Move
+  langs:
+  - csharp
+  - vb
+  name: Execute(Player)
+  nameWithType: Player.Commands.Move.Execute(Player)
+  fullName: com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 147
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public void Execute(Player player)
+    parameters:
+    - id: player
+      type: com.eyerunnman.player.Player
+    content.vb: Public Sub Execute(player As Player)
+  overload: com.eyerunnman.player.Player.Commands.Move.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: com.eyerunnman.player.Player.Commands.Move.#ctor*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.Move.#ctor
+  name: Move
+  nameWithType: Player.Commands.Move.Move
+  fullName: com.eyerunnman.player.Player.Commands.Move.Move
+- uid: Vector2
+  commentId: '!:Vector2'
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: com.eyerunnman.player.Player.Commands.Move.Execute*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.Move.Execute
+  name: Execute
+  nameWithType: Player.Commands.Move.Execute
+  fullName: com.eyerunnman.player.Player.Commands.Move.Execute
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  parent: com.eyerunnman.player
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player

@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.Player.Commands.Jump
+  commentId: T:com.eyerunnman.player.Player.Commands.Jump
+  id: Player.Commands.Jump
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+  langs:
+  - csharp
+  - vb
+  name: Player.Commands.Jump
+  nameWithType: Player.Commands.Jump
+  fullName: com.eyerunnman.player.Player.Commands.Jump
+  type: Class
+  source:
+    id: Jump
+    path: ''
+    startLine: 108
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class Jump : ICommand<Player>'
+    content.vb: >-
+      Public Class Jump
+
+          Inherits ICommand(Of Player)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+  commentId: M:com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+  id: Execute(com.eyerunnman.player.Player)
+  parent: com.eyerunnman.player.Player.Commands.Jump
+  langs:
+  - csharp
+  - vb
+  name: Execute(Player)
+  nameWithType: Player.Commands.Jump.Execute(Player)
+  fullName: com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public void Execute(Player player)
+    parameters:
+    - id: player
+      type: com.eyerunnman.player.Player
+    content.vb: Public Sub Execute(player As Player)
+  overload: com.eyerunnman.player.Player.Commands.Jump.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: com.eyerunnman.player.Player.Commands.Jump.Execute*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.Jump.Execute
+  name: Execute
+  nameWithType: Player.Commands.Jump.Execute
+  fullName: com.eyerunnman.player.Player.Commands.Jump.Execute
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  parent: com.eyerunnman.player
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player

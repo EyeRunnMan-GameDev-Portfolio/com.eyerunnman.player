@@ -1,0 +1,21 @@
+{
+  "com.eyerunnman.player": "com.eyerunnman.player.yml",
+  "com.eyerunnman.player.Player": "com.eyerunnman.player.Player.yml",
+  "com.eyerunnman.player.Player.Commands": "com.eyerunnman.player.Player.Commands.yml",
+  "com.eyerunnman.player.Player.Commands.Jump": "com.eyerunnman.player.Player.Commands.Jump.yml",
+  "com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)": "com.eyerunnman.player.Player.Commands.Jump.yml",
+  "com.eyerunnman.player.Player.Commands.Move": "com.eyerunnman.player.Player.Commands.Move.yml",
+  "com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)": "com.eyerunnman.player.Player.Commands.Move.yml",
+  "com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)": "com.eyerunnman.player.Player.Commands.Move.yml",
+  "com.eyerunnman.player.Player.Commands.Run": "com.eyerunnman.player.Player.Commands.Run.yml",
+  "com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)": "com.eyerunnman.player.Player.Commands.Run.yml",
+  "com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)": "com.eyerunnman.player.Player.Commands.Run.yml",
+  "com.eyerunnman.player.Player.Commands.SetConfig": "com.eyerunnman.player.Player.Commands.SetConfig.yml",
+  "com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)": "com.eyerunnman.player.Player.Commands.SetConfig.yml",
+  "com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)": "com.eyerunnman.player.Player.Commands.SetConfig.yml",
+  "com.eyerunnman.player.PlayerConfig": "com.eyerunnman.player.PlayerConfig.yml",
+  "com.eyerunnman.player.PlayerConfig.runSpeed": "com.eyerunnman.player.PlayerConfig.yml",
+  "com.eyerunnman.player.PlayerConfig.walkSpeed": "com.eyerunnman.player.PlayerConfig.yml",
+  "com.eyerunnman.player.PlayerProxy": "com.eyerunnman.player.PlayerProxy.yml",
+  "com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})": "com.eyerunnman.player.PlayerProxy.yml"
+}

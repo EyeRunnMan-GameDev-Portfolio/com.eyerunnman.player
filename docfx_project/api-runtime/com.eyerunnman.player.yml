@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  id: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.Player
+  - com.eyerunnman.player.Player.Commands
+  - com.eyerunnman.player.Player.Commands.Jump
+  - com.eyerunnman.player.Player.Commands.Move
+  - com.eyerunnman.player.Player.Commands.Run
+  - com.eyerunnman.player.Player.Commands.SetConfig
+  - com.eyerunnman.player.PlayerConfig
+  - com.eyerunnman.player.PlayerProxy
+  langs:
+  - csharp
+  - vb
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  parent: com.eyerunnman.player
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player
+- uid: com.eyerunnman.player.Player.Commands
+  commentId: T:com.eyerunnman.player.Player.Commands
+  name: Player.Commands
+  nameWithType: Player.Commands
+  fullName: com.eyerunnman.player.Player.Commands
+- uid: com.eyerunnman.player.Player.Commands.Jump
+  commentId: T:com.eyerunnman.player.Player.Commands.Jump
+  name: Player.Commands.Jump
+  nameWithType: Player.Commands.Jump
+  fullName: com.eyerunnman.player.Player.Commands.Jump
+- uid: com.eyerunnman.player.Player.Commands.Move
+  commentId: T:com.eyerunnman.player.Player.Commands.Move
+  name: Player.Commands.Move
+  nameWithType: Player.Commands.Move
+  fullName: com.eyerunnman.player.Player.Commands.Move
+- uid: com.eyerunnman.player.Player.Commands.Run
+  commentId: T:com.eyerunnman.player.Player.Commands.Run
+  name: Player.Commands.Run
+  nameWithType: Player.Commands.Run
+  fullName: com.eyerunnman.player.Player.Commands.Run
+- uid: com.eyerunnman.player.Player.Commands.SetConfig
+  commentId: T:com.eyerunnman.player.Player.Commands.SetConfig
+  name: Player.Commands.SetConfig
+  nameWithType: Player.Commands.SetConfig
+  fullName: com.eyerunnman.player.Player.Commands.SetConfig
+- uid: com.eyerunnman.player.PlayerConfig
+  commentId: T:com.eyerunnman.player.PlayerConfig
+  parent: com.eyerunnman.player
+  name: PlayerConfig
+  nameWithType: PlayerConfig
+  fullName: com.eyerunnman.player.PlayerConfig
+- uid: com.eyerunnman.player.PlayerProxy
+  commentId: T:com.eyerunnman.player.PlayerProxy
+  name: PlayerProxy
+  nameWithType: PlayerProxy
+  fullName: com.eyerunnman.player.PlayerProxy
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player

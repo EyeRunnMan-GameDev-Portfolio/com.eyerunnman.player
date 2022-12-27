@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  id: Player
+  parent: com.eyerunnman.player
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player
+  type: Class
+  source:
+    id: Player
+    path: ''
+    startLine: 384
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class Player : MonoBehaviour'
+    content.vb: >-
+      Public Class Player
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

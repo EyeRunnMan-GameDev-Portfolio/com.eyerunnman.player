@@ -1,0 +1,20 @@
+### YamlMime:TableOfContent
+- uid: com.eyerunnman.player
+  name: com.eyerunnman.player
+  items:
+  - uid: com.eyerunnman.player.Player
+    name: Player
+  - uid: com.eyerunnman.player.Player.Commands
+    name: Player.Commands
+  - uid: com.eyerunnman.player.Player.Commands.Jump
+    name: Player.Commands.Jump
+  - uid: com.eyerunnman.player.Player.Commands.Move
+    name: Player.Commands.Move
+  - uid: com.eyerunnman.player.Player.Commands.Run
+    name: Player.Commands.Run
+  - uid: com.eyerunnman.player.Player.Commands.SetConfig
+    name: Player.Commands.SetConfig
+  - uid: com.eyerunnman.player.PlayerConfig
+    name: PlayerConfig
+  - uid: com.eyerunnman.player.PlayerProxy
+    name: PlayerProxy

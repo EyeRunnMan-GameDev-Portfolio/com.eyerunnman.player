@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.PlayerConfig
+  commentId: T:com.eyerunnman.player.PlayerConfig
+  id: PlayerConfig
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.PlayerConfig.runSpeed
+  - com.eyerunnman.player.PlayerConfig.walkSpeed
+  langs:
+  - csharp
+  - vb
+  name: PlayerConfig
+  nameWithType: PlayerConfig
+  fullName: com.eyerunnman.player.PlayerConfig
+  type: Class
+  source:
+    id: PlayerConfig
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class PlayerConfig : ScriptableObject'
+    content.vb: >-
+      Public Class PlayerConfig
+
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.PlayerConfig.walkSpeed
+  commentId: F:com.eyerunnman.player.PlayerConfig.walkSpeed
+  id: walkSpeed
+  parent: com.eyerunnman.player.PlayerConfig
+  langs:
+  - csharp
+  - vb
+  name: walkSpeed
+  nameWithType: PlayerConfig.walkSpeed
+  fullName: com.eyerunnman.player.PlayerConfig.walkSpeed
+  type: Field
+  source:
+    id: walkSpeed
+    path: ''
+    startLine: 93
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public float walkSpeed
+    return:
+      type: System.Single
+    content.vb: Public walkSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: com.eyerunnman.player.PlayerConfig.runSpeed
+  commentId: F:com.eyerunnman.player.PlayerConfig.runSpeed
+  id: runSpeed
+  parent: com.eyerunnman.player.PlayerConfig
+  langs:
+  - csharp
+  - vb
+  name: runSpeed
+  nameWithType: PlayerConfig.runSpeed
+  fullName: com.eyerunnman.player.PlayerConfig.runSpeed
+  type: Field
+  source:
+    id: runSpeed
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public float runSpeed
+    return:
+      type: System.Single
+    content.vb: Public runSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

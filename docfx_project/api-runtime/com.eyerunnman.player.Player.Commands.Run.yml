@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.eyerunnman.player.Player.Commands.Run
+  commentId: T:com.eyerunnman.player.Player.Commands.Run
+  id: Player.Commands.Run
+  parent: com.eyerunnman.player
+  children:
+  - com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)
+  - com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+  langs:
+  - csharp
+  - vb
+  name: Player.Commands.Run
+  nameWithType: Player.Commands.Run
+  fullName: com.eyerunnman.player.Player.Commands.Run
+  type: Class
+  source:
+    id: Run
+    path: ''
+    startLine: 167
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: 'public class Run : ICommand<Player>'
+    content.vb: >-
+      Public Class Run
+
+          Inherits ICommand(Of Player)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)
+  commentId: M:com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: com.eyerunnman.player.Player.Commands.Run
+  langs:
+  - csharp
+  - vb
+  name: Run(Boolean)
+  nameWithType: Player.Commands.Run.Run(Boolean)
+  fullName: com.eyerunnman.player.Player.Commands.Run.Run(System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 170
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public Run(bool run)
+    parameters:
+    - id: run
+      type: System.Boolean
+    content.vb: Public Sub New(run As Boolean)
+  overload: com.eyerunnman.player.Player.Commands.Run.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+  commentId: M:com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+  id: Execute(com.eyerunnman.player.Player)
+  parent: com.eyerunnman.player.Player.Commands.Run
+  langs:
+  - csharp
+  - vb
+  name: Execute(Player)
+  nameWithType: Player.Commands.Run.Execute(Player)
+  fullName: com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 175
+  assemblies:
+  - cs.temp.dll
+  namespace: com.eyerunnman.player
+  syntax:
+    content: public void Execute(Player player)
+    parameters:
+    - id: player
+      type: com.eyerunnman.player.Player
+    content.vb: Public Sub Execute(player As Player)
+  overload: com.eyerunnman.player.Player.Commands.Run.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  name: com.eyerunnman.player
+  nameWithType: com.eyerunnman.player
+  fullName: com.eyerunnman.player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: com.eyerunnman.player.Player.Commands.Run.#ctor*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.Run.#ctor
+  name: Run
+  nameWithType: Player.Commands.Run.Run
+  fullName: com.eyerunnman.player.Player.Commands.Run.Run
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: com.eyerunnman.player.Player.Commands.Run.Execute*
+  commentId: Overload:com.eyerunnman.player.Player.Commands.Run.Execute
+  name: Execute
+  nameWithType: Player.Commands.Run.Execute
+  fullName: com.eyerunnman.player.Player.Commands.Run.Execute
+- uid: com.eyerunnman.player.Player
+  commentId: T:com.eyerunnman.player.Player
+  parent: com.eyerunnman.player
+  name: Player
+  nameWithType: Player
+  fullName: com.eyerunnman.player.Player
