@@ -1,0 +1,1308 @@
+id: cs.temp.dll
+language: CSharp
+name:
+  Default: cs.temp.dll
+qualifiedName:
+  Default: cs.temp.dll
+type: Assembly
+modifiers: {}
+items:
+- id: com.eyerunnman.player
+  commentId: N:com.eyerunnman.player
+  language: CSharp
+  name:
+    CSharp: com.eyerunnman.player
+    VB: com.eyerunnman.player
+  nameWithType:
+    CSharp: com.eyerunnman.player
+    VB: com.eyerunnman.player
+  qualifiedName:
+    CSharp: com.eyerunnman.player
+    VB: com.eyerunnman.player
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: com.eyerunnman.player.Player
+    commentId: T:com.eyerunnman.player.Player
+    language: CSharp
+    name:
+      CSharp: Player
+      VB: Player
+    nameWithType:
+      CSharp: Player
+      VB: Player
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player
+      VB: com.eyerunnman.player.Player
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: Player
+      path: ''
+      startLine: 384
+    syntax:
+      content:
+        CSharp: 'public class Player : MonoBehaviour'
+        VB: >-
+          Public Class Player
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: com.eyerunnman.player.Player.Commands
+    commentId: T:com.eyerunnman.player.Player.Commands
+    language: CSharp
+    name:
+      CSharp: Player.Commands
+      VB: Player.Commands
+    nameWithType:
+      CSharp: Player.Commands
+      VB: Player.Commands
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player.Commands
+      VB: com.eyerunnman.player.Player.Commands
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: Commands
+      path: ''
+      startLine: 192
+    syntax:
+      content:
+        CSharp: public class Commands
+        VB: Public Class Commands
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: com.eyerunnman.player.Player.Commands.Jump
+    commentId: T:com.eyerunnman.player.Player.Commands.Jump
+    language: CSharp
+    name:
+      CSharp: Player.Commands.Jump
+      VB: Player.Commands.Jump
+    nameWithType:
+      CSharp: Player.Commands.Jump
+      VB: Player.Commands.Jump
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player.Commands.Jump
+      VB: com.eyerunnman.player.Player.Commands.Jump
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: Jump
+      path: ''
+      startLine: 108
+    syntax:
+      content:
+        CSharp: 'public class Jump : ICommand<Player>'
+        VB: >-
+          Public Class Jump
+
+              Inherits ICommand(Of Player)
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+      commentId: M:com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+      language: CSharp
+      name:
+        CSharp: Execute(Player)
+        VB: Execute(Player)
+      nameWithType:
+        CSharp: Player.Commands.Jump.Execute(Player)
+        VB: Player.Commands.Jump.Execute(Player)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+        VB: com.eyerunnman.player.Player.Commands.Jump.Execute(com.eyerunnman.player.Player)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: Execute
+        path: ''
+        startLine: 110
+      syntax:
+        content:
+          CSharp: public void Execute(Player player)
+          VB: Public Sub Execute(player As Player)
+        parameters:
+        - id: player
+          type: com.eyerunnman.player.Player
+      overload: com.eyerunnman.player.Player.Commands.Jump.Execute*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: com.eyerunnman.player.Player.Commands.Move
+    commentId: T:com.eyerunnman.player.Player.Commands.Move
+    language: CSharp
+    name:
+      CSharp: Player.Commands.Move
+      VB: Player.Commands.Move
+    nameWithType:
+      CSharp: Player.Commands.Move
+      VB: Player.Commands.Move
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player.Commands.Move
+      VB: com.eyerunnman.player.Player.Commands.Move
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: Move
+      path: ''
+      startLine: 138
+    syntax:
+      content:
+        CSharp: 'public class Move : ICommand<Player>'
+        VB: >-
+          Public Class Move
+
+              Inherits ICommand(Of Player)
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)
+      commentId: M:com.eyerunnman.player.Player.Commands.Move.#ctor(Vector2)
+      language: CSharp
+      name:
+        CSharp: Move(Vector2)
+        VB: Move(Vector2)
+      nameWithType:
+        CSharp: Player.Commands.Move.Move(Vector2)
+        VB: Player.Commands.Move.Move(Vector2)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.Move.Move(Vector2)
+        VB: com.eyerunnman.player.Player.Commands.Move.Move(Vector2)
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: .ctor
+        path: ''
+        startLine: 142
+      syntax:
+        content:
+          CSharp: public Move(Vector2 moveInput)
+          VB: Public Sub New(moveInput As Vector2)
+        parameters:
+        - id: moveInput
+          type: Vector2
+      overload: com.eyerunnman.player.Player.Commands.Move.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+      commentId: M:com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+      language: CSharp
+      name:
+        CSharp: Execute(Player)
+        VB: Execute(Player)
+      nameWithType:
+        CSharp: Player.Commands.Move.Execute(Player)
+        VB: Player.Commands.Move.Execute(Player)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+        VB: com.eyerunnman.player.Player.Commands.Move.Execute(com.eyerunnman.player.Player)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: Execute
+        path: ''
+        startLine: 147
+      syntax:
+        content:
+          CSharp: public void Execute(Player player)
+          VB: Public Sub Execute(player As Player)
+        parameters:
+        - id: player
+          type: com.eyerunnman.player.Player
+      overload: com.eyerunnman.player.Player.Commands.Move.Execute*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: com.eyerunnman.player.Player.Commands.Run
+    commentId: T:com.eyerunnman.player.Player.Commands.Run
+    language: CSharp
+    name:
+      CSharp: Player.Commands.Run
+      VB: Player.Commands.Run
+    nameWithType:
+      CSharp: Player.Commands.Run
+      VB: Player.Commands.Run
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player.Commands.Run
+      VB: com.eyerunnman.player.Player.Commands.Run
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: Run
+      path: ''
+      startLine: 167
+    syntax:
+      content:
+        CSharp: 'public class Run : ICommand<Player>'
+        VB: >-
+          Public Class Run
+
+              Inherits ICommand(Of Player)
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)
+      commentId: M:com.eyerunnman.player.Player.Commands.Run.#ctor(System.Boolean)
+      language: CSharp
+      name:
+        CSharp: Run(Boolean)
+        VB: Run(Boolean)
+      nameWithType:
+        CSharp: Player.Commands.Run.Run(Boolean)
+        VB: Player.Commands.Run.Run(Boolean)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.Run.Run(System.Boolean)
+        VB: com.eyerunnman.player.Player.Commands.Run.Run(System.Boolean)
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: .ctor
+        path: ''
+        startLine: 170
+      syntax:
+        content:
+          CSharp: public Run(bool run)
+          VB: Public Sub New(run As Boolean)
+        parameters:
+        - id: run
+          type: System.Boolean
+      overload: com.eyerunnman.player.Player.Commands.Run.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+      commentId: M:com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+      language: CSharp
+      name:
+        CSharp: Execute(Player)
+        VB: Execute(Player)
+      nameWithType:
+        CSharp: Player.Commands.Run.Execute(Player)
+        VB: Player.Commands.Run.Execute(Player)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+        VB: com.eyerunnman.player.Player.Commands.Run.Execute(com.eyerunnman.player.Player)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: Execute
+        path: ''
+        startLine: 175
+      syntax:
+        content:
+          CSharp: public void Execute(Player player)
+          VB: Public Sub Execute(player As Player)
+        parameters:
+        - id: player
+          type: com.eyerunnman.player.Player
+      overload: com.eyerunnman.player.Player.Commands.Run.Execute*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: com.eyerunnman.player.Player.Commands.SetConfig
+    commentId: T:com.eyerunnman.player.Player.Commands.SetConfig
+    language: CSharp
+    name:
+      CSharp: Player.Commands.SetConfig
+      VB: Player.Commands.SetConfig
+    nameWithType:
+      CSharp: Player.Commands.SetConfig
+      VB: Player.Commands.SetConfig
+    qualifiedName:
+      CSharp: com.eyerunnman.player.Player.Commands.SetConfig
+      VB: com.eyerunnman.player.Player.Commands.SetConfig
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: SetConfig
+      path: ''
+      startLine: 194
+    syntax:
+      content:
+        CSharp: 'public class SetConfig : ICommand<Player>'
+        VB: >-
+          Public Class SetConfig
+
+              Inherits ICommand(Of Player)
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)
+      commentId: M:com.eyerunnman.player.Player.Commands.SetConfig.#ctor(com.eyerunnman.player.PlayerConfig)
+      language: CSharp
+      name:
+        CSharp: SetConfig(PlayerConfig)
+        VB: SetConfig(PlayerConfig)
+      nameWithType:
+        CSharp: Player.Commands.SetConfig.SetConfig(PlayerConfig)
+        VB: Player.Commands.SetConfig.SetConfig(PlayerConfig)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig(com.eyerunnman.player.PlayerConfig)
+        VB: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig(com.eyerunnman.player.PlayerConfig)
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: .ctor
+        path: ''
+        startLine: 197
+      syntax:
+        content:
+          CSharp: public SetConfig(PlayerConfig config)
+          VB: Public Sub New(config As PlayerConfig)
+        parameters:
+        - id: config
+          type: com.eyerunnman.player.PlayerConfig
+      overload: com.eyerunnman.player.Player.Commands.SetConfig.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+      commentId: M:com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+      language: CSharp
+      name:
+        CSharp: Execute(Player)
+        VB: Execute(Player)
+      nameWithType:
+        CSharp: Player.Commands.SetConfig.Execute(Player)
+        VB: Player.Commands.SetConfig.Execute(Player)
+      qualifiedName:
+        CSharp: com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+        VB: com.eyerunnman.player.Player.Commands.SetConfig.Execute(com.eyerunnman.player.Player)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: Execute
+        path: ''
+        startLine: 202
+      syntax:
+        content:
+          CSharp: public void Execute(Player player)
+          VB: Public Sub Execute(player As Player)
+        parameters:
+        - id: player
+          type: com.eyerunnman.player.Player
+      overload: com.eyerunnman.player.Player.Commands.SetConfig.Execute*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: com.eyerunnman.player.PlayerConfig
+    commentId: T:com.eyerunnman.player.PlayerConfig
+    language: CSharp
+    name:
+      CSharp: PlayerConfig
+      VB: PlayerConfig
+    nameWithType:
+      CSharp: PlayerConfig
+      VB: PlayerConfig
+    qualifiedName:
+      CSharp: com.eyerunnman.player.PlayerConfig
+      VB: com.eyerunnman.player.PlayerConfig
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: PlayerConfig
+      path: ''
+      startLine: 89
+    syntax:
+      content:
+        CSharp: 'public class PlayerConfig : ScriptableObject'
+        VB: >-
+          Public Class PlayerConfig
+
+              Inherits ScriptableObject
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.PlayerConfig.walkSpeed
+      commentId: F:com.eyerunnman.player.PlayerConfig.walkSpeed
+      language: CSharp
+      name:
+        CSharp: walkSpeed
+        VB: walkSpeed
+      nameWithType:
+        CSharp: PlayerConfig.walkSpeed
+        VB: PlayerConfig.walkSpeed
+      qualifiedName:
+        CSharp: com.eyerunnman.player.PlayerConfig.walkSpeed
+        VB: com.eyerunnman.player.PlayerConfig.walkSpeed
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: walkSpeed
+        path: ''
+        startLine: 93
+      syntax:
+        content:
+          CSharp: public float walkSpeed
+          VB: Public walkSpeed As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: com.eyerunnman.player.PlayerConfig.runSpeed
+      commentId: F:com.eyerunnman.player.PlayerConfig.runSpeed
+      language: CSharp
+      name:
+        CSharp: runSpeed
+        VB: runSpeed
+      nameWithType:
+        CSharp: PlayerConfig.runSpeed
+        VB: PlayerConfig.runSpeed
+      qualifiedName:
+        CSharp: com.eyerunnman.player.PlayerConfig.runSpeed
+        VB: com.eyerunnman.player.PlayerConfig.runSpeed
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: runSpeed
+        path: ''
+        startLine: 95
+      syntax:
+        content:
+          CSharp: public float runSpeed
+          VB: Public runSpeed As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: com.eyerunnman.player.PlayerProxy
+    commentId: T:com.eyerunnman.player.PlayerProxy
+    language: CSharp
+    name:
+      CSharp: PlayerProxy
+      VB: PlayerProxy
+    nameWithType:
+      CSharp: PlayerProxy
+      VB: PlayerProxy
+    qualifiedName:
+      CSharp: com.eyerunnman.player.PlayerProxy
+      VB: com.eyerunnman.player.PlayerProxy
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: com.eyerunnman.player
+    source:
+      id: PlayerProxy
+      path: ''
+      startLine: 449
+    syntax:
+      content:
+        CSharp: 'public class PlayerProxy : MonoBehaviour'
+        VB: >-
+          Public Class PlayerProxy
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+      commentId: M:com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand{com.eyerunnman.player.Player})
+      language: CSharp
+      name:
+        CSharp: ExecuteCommand(ICommand<Player>)
+        VB: ExecuteCommand(ICommand(Of Player))
+      nameWithType:
+        CSharp: PlayerProxy.ExecuteCommand(ICommand<Player>)
+        VB: PlayerProxy.ExecuteCommand(ICommand(Of Player))
+      qualifiedName:
+        CSharp: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand<com.eyerunnman.player.Player>)
+        VB: com.eyerunnman.player.PlayerProxy.ExecuteCommand(ICommand(Of com.eyerunnman.player.Player))
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: com.eyerunnman.player
+      source:
+        id: ExecuteCommand
+        path: ''
+        startLine: 466
+      syntax:
+        content:
+          CSharp: public void ExecuteCommand(ICommand<Player> command)
+          VB: Public Sub ExecuteCommand(command As ICommand(Of Player))
+        parameters:
+        - id: command
+          type: ICommand{com.eyerunnman.player.Player}
+      overload: com.eyerunnman.player.PlayerProxy.ExecuteCommand*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  com.eyerunnman.player.Player:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player
+        name: Player
+        nameWithType: Player
+        qualifiedName: com.eyerunnman.player.Player
+      VB:
+      - id: com.eyerunnman.player.Player
+        name: Player
+        nameWithType: Player
+        qualifiedName: com.eyerunnman.player.Player
+    isDefinition: true
+    parent: com.eyerunnman.player
+    commentId: T:com.eyerunnman.player.Player
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  com.eyerunnman.player.Player.Commands:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands
+        name: Player.Commands
+        nameWithType: Player.Commands
+        qualifiedName: com.eyerunnman.player.Player.Commands
+      VB:
+      - id: com.eyerunnman.player.Player.Commands
+        name: Player.Commands
+        nameWithType: Player.Commands
+        qualifiedName: com.eyerunnman.player.Player.Commands
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.Player.Commands
+  com.eyerunnman.player:
+    name:
+      CSharp:
+      - name: com.eyerunnman.player
+        nameWithType: com.eyerunnman.player
+        qualifiedName: com.eyerunnman.player
+      VB:
+      - name: com.eyerunnman.player
+        nameWithType: com.eyerunnman.player
+        qualifiedName: com.eyerunnman.player
+    isDefinition: true
+    commentId: N:com.eyerunnman.player
+  com.eyerunnman.player.Player.Commands.Jump.Execute*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Jump.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Jump.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Jump.Execute
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Jump.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Jump.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Jump.Execute
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.Jump.Execute
+  com.eyerunnman.player.Player.Commands.Jump:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Jump
+        name: Player.Commands.Jump
+        nameWithType: Player.Commands.Jump
+        qualifiedName: com.eyerunnman.player.Player.Commands.Jump
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Jump
+        name: Player.Commands.Jump
+        nameWithType: Player.Commands.Jump
+        qualifiedName: com.eyerunnman.player.Player.Commands.Jump
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.Player.Commands.Jump
+  Vector2:
+    name:
+      CSharp:
+      - id: Vector2
+        name: Vector2
+        nameWithType: Vector2
+        qualifiedName: Vector2
+        isExternal: true
+      VB:
+      - id: Vector2
+        name: Vector2
+        nameWithType: Vector2
+        qualifiedName: Vector2
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Vector2'
+  com.eyerunnman.player.Player.Commands.Move.#ctor*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Move.#ctor*
+        name: Move
+        nameWithType: Player.Commands.Move.Move
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move.Move
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Move.#ctor*
+        name: Move
+        nameWithType: Player.Commands.Move.Move
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move.Move
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.Move.#ctor
+  com.eyerunnman.player.Player.Commands.Move.Execute*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Move.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Move.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move.Execute
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Move.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Move.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move.Execute
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.Move.Execute
+  com.eyerunnman.player.Player.Commands.Move:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Move
+        name: Player.Commands.Move
+        nameWithType: Player.Commands.Move
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Move
+        name: Player.Commands.Move
+        nameWithType: Player.Commands.Move
+        qualifiedName: com.eyerunnman.player.Player.Commands.Move
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.Player.Commands.Move
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  com.eyerunnman.player.Player.Commands.Run.#ctor*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Run.#ctor*
+        name: Run
+        nameWithType: Player.Commands.Run.Run
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run.Run
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Run.#ctor*
+        name: Run
+        nameWithType: Player.Commands.Run.Run
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run.Run
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.Run.#ctor
+  com.eyerunnman.player.Player.Commands.Run.Execute*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Run.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Run.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run.Execute
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Run.Execute*
+        name: Execute
+        nameWithType: Player.Commands.Run.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run.Execute
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.Run.Execute
+  com.eyerunnman.player.Player.Commands.Run:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.Run
+        name: Player.Commands.Run
+        nameWithType: Player.Commands.Run
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.Run
+        name: Player.Commands.Run
+        nameWithType: Player.Commands.Run
+        qualifiedName: com.eyerunnman.player.Player.Commands.Run
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.Player.Commands.Run
+  com.eyerunnman.player.PlayerConfig:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.PlayerConfig
+        name: PlayerConfig
+        nameWithType: PlayerConfig
+        qualifiedName: com.eyerunnman.player.PlayerConfig
+      VB:
+      - id: com.eyerunnman.player.PlayerConfig
+        name: PlayerConfig
+        nameWithType: PlayerConfig
+        qualifiedName: com.eyerunnman.player.PlayerConfig
+    isDefinition: true
+    parent: com.eyerunnman.player
+    commentId: T:com.eyerunnman.player.PlayerConfig
+  com.eyerunnman.player.Player.Commands.SetConfig.#ctor*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig.#ctor*
+        name: SetConfig
+        nameWithType: Player.Commands.SetConfig.SetConfig
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig.#ctor*
+        name: SetConfig
+        nameWithType: Player.Commands.SetConfig.SetConfig
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig.SetConfig
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.SetConfig.#ctor
+  com.eyerunnman.player.Player.Commands.SetConfig.Execute*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig.Execute*
+        name: Execute
+        nameWithType: Player.Commands.SetConfig.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig.Execute
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig.Execute*
+        name: Execute
+        nameWithType: Player.Commands.SetConfig.Execute
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig.Execute
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.Player.Commands.SetConfig.Execute
+  com.eyerunnman.player.Player.Commands.SetConfig:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig
+        name: Player.Commands.SetConfig
+        nameWithType: Player.Commands.SetConfig
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig
+      VB:
+      - id: com.eyerunnman.player.Player.Commands.SetConfig
+        name: Player.Commands.SetConfig
+        nameWithType: Player.Commands.SetConfig
+        qualifiedName: com.eyerunnman.player.Player.Commands.SetConfig
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.Player.Commands.SetConfig
+  System.Single:
+    name:
+      CSharp:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+      VB:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Single
+  ICommand`1:
+    name:
+      CSharp:
+      - id: ICommand`1
+        name: ICommand
+        nameWithType: ICommand
+        qualifiedName: ICommand
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: ICommand`1
+        name: ICommand
+        nameWithType: ICommand
+        qualifiedName: ICommand
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:ICommand`1'
+  ICommand{com.eyerunnman.player.Player}:
+    name:
+      CSharp:
+      - id: ICommand`1
+        name: ICommand
+        nameWithType: ICommand
+        qualifiedName: ICommand
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: com.eyerunnman.player.Player
+        name: Player
+        nameWithType: Player
+        qualifiedName: com.eyerunnman.player.Player
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: ICommand`1
+        name: ICommand
+        nameWithType: ICommand
+        qualifiedName: ICommand
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: com.eyerunnman.player.Player
+        name: Player
+        nameWithType: Player
+        qualifiedName: com.eyerunnman.player.Player
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: ICommand`1
+    commentId: '!:ICommand{com.eyerunnman.player.Player}'
+  com.eyerunnman.player.PlayerProxy.ExecuteCommand*:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.PlayerProxy.ExecuteCommand*
+        name: ExecuteCommand
+        nameWithType: PlayerProxy.ExecuteCommand
+        qualifiedName: com.eyerunnman.player.PlayerProxy.ExecuteCommand
+      VB:
+      - id: com.eyerunnman.player.PlayerProxy.ExecuteCommand*
+        name: ExecuteCommand
+        nameWithType: PlayerProxy.ExecuteCommand
+        qualifiedName: com.eyerunnman.player.PlayerProxy.ExecuteCommand
+    isDefinition: true
+    commentId: Overload:com.eyerunnman.player.PlayerProxy.ExecuteCommand
+  com.eyerunnman.player.PlayerProxy:
+    name:
+      CSharp:
+      - id: com.eyerunnman.player.PlayerProxy
+        name: PlayerProxy
+        nameWithType: PlayerProxy
+        qualifiedName: com.eyerunnman.player.PlayerProxy
+      VB:
+      - id: com.eyerunnman.player.PlayerProxy
+        name: PlayerProxy
+        nameWithType: PlayerProxy
+        qualifiedName: com.eyerunnman.player.PlayerProxy
+    isDefinition: true
+    commentId: T:com.eyerunnman.player.PlayerProxy
